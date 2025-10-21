@@ -1,0 +1,62 @@
+<form>
+  <label for="input-id">ID</label><br />
+  <input
+    class="input-simples"
+    id="input-id"
+    name="input-id"
+    placeholder="Digite o ID"
+    type="text"
+    [(ngModel)]="seriado.id"
+  />
+  <label for="input-nome">Nome</label><br />
+  <input
+    class="input-simples"
+    id="input-nome"
+    name="input-nome"
+    placeholder="Digite o nome do seriado"
+    type="text"
+    [(ngModel)]="seriado.nome"
+  />
+  <label for="input-episodios">Número de episódios</label><br />
+  <input
+    class="input-simples"
+    id="input-episodio"
+    name="input-episodio"
+    placeholder="Digite o número de episódios"
+    type="text"
+    [(ngModel)]="seriado.episodios"
+  />
+  <label for="input-categoria">Categoria</label><br />
+  <input
+    class="input-simples"
+    id="input-categoria"
+    name="input-categoria"
+    type="text"
+    [(ngModel)]="seriado.categoria"
+  />
+  <label for="input-resumo">Resumo do seriado</label><br />
+  <input
+    class="input-simples"
+    id="input-resumo"
+    name="input-resumo"
+    type="text"
+    [(ngModel)]="seriado.resumo"
+  />
+  <label for="input-lancamento">Ano de lançamento</label><br />
+  <input
+    class="input-simples"
+    id="input-lancamento"
+    name="input-lancamento"
+    type="text"
+    [(ngModel)]="seriado.lancamento"
+  />
+  <label for="input-ator">Estrelado por:</label><br />
+  <input
+    class="input-simples"
+    id="input-ator"
+    name="input-ator"
+    type="text"
+    [(ngModel)]="seriado.ator_principal"
+  />
+  <button class="input-submeter" (click)="submeter()">Cadastrar</button>
+</form>

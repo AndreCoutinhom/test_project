@@ -1,0 +1,22 @@
+{
+  "seriados": [
+    {
+      "id": "1",
+      "nome": "Baymax",
+      "episodios": "10",
+      "categoria": "Aventura",
+      "resumo": "Um robô médico",
+      "lancamento": "2020",
+      "ator_principal": "Fulano"
+    },
+    {
+      "id": "2",
+      "nome": "Zootopia+",
+      "episodios": "7",
+      "categoria": "Comédia",
+      "resumo": "A vida dos animais",
+      "lancamento": "2023",
+      "ator_principal": "Nick Wilde"
+    }
+  ]
+}

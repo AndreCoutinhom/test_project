@@ -1,0 +1,29 @@
+<div class="consulta-container">
+    <form (ngSubmit)="buscarSeriado()">
+      <label for="input-codigo">Informe o ID do seriado:</label>
+      <input
+        type="number"
+        id="input-id"
+        name="input-id"
+        [(ngModel)]="idBusca"
+        class="input-id"
+        required
+      />
+      <button type="submit" class="btn-buscar">Buscar</button>
+    </form>
+  
+    <div *ngIf="seriadoEncontrado" class="seriado-dados">
+      <h2>Dados do Seriado</h2>
+      <p><strong>ID:</strong> {{ seriadoEncontrado.id }}</p>
+      <p><strong>Nome:</strong> {{ seriadoEncontrado.nome }}</p>
+      <p><strong>Número de Episódios:</strong> {{ seriadoEncontrado.episodios }}</p>
+      <p><strong>Categoria:</strong> {{ seriadoEncontrado.categoria }}</p>
+      <p><strong>Resumo:</strong> {{ seriadoEncontrado.resumo }}</p>
+      <p><strong>Ano de lançamento:</strong> {{ seriadoEncontrado.lancamento }}</p>
+      <p><strong>Ator Principal:</strong> {{ seriadoEncontrado.ator_principal }}</p>
+    </div>
+  
+    <div *ngIf="erroBusca" class="erro-busca">
+      {{ erroBusca }}
+    </div>
+  </div>

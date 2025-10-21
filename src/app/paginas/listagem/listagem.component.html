@@ -1,0 +1,28 @@
+<div class="content-container">
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Número de Episódios</th>
+          <th>Categoria</th>
+          <th>Resumo</th>
+          <th>Ano de lançamento</th>
+          <th>Ator principal</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (seriado of listaSeriados; track seriado){
+        <tr>
+          <td>{{ seriado.id }}</td>
+          <td>{{ seriado.nome }}</td>
+          <td>{{ seriado.episodios }}</td>
+          <td>{{ seriado.categoria }}</td>
+          <td>{{ seriado.resumo }}</td>
+          <td>{{ seriado.lancamento }}</td>
+          <td>{{ seriado.ator_principal }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
