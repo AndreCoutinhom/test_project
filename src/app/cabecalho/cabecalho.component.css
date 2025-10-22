@@ -1,3 +1,12 @@
+a img {
+    width: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
 header {
     width: 90%;
     display: flex;
@@ -18,6 +27,7 @@ header h1, header nav {
 }
 
 h1 a {
+    margin-left: 5%;
     text-decoration: none;
     color: #fefdff;
 }

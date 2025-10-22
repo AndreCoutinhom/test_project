@@ -17,6 +17,15 @@
       "resumo": "A vida dos animais",
       "lancamento": "2023",
       "ator_principal": "Nick Wilde"
+    },
+    {
+      "id": "3",
+      "nome": "Ganhar ou Perder",
+      "episodios": "7",
+      "categoria": "Comédia dramática",
+      "resumo": "Será que o time dos picles vai conseguir superar seus desafios?",
+      "lancamento": "2025",
+      "ator_principal": "Beltrano"
     }
   ]
 }
