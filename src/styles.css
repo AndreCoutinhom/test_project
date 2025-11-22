@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: rgb(0, 0, 0);
+    background-image: url(https://images6.alphacoders.com/133/1331854.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }

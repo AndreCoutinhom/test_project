@@ -1,14 +1,15 @@
 footer {
     width: 90%;
     margin: 0% auto;
-    border: 3px solid black;
+    border: 3px solid #bdc2be;
     margin-top: 5px;
-    background-color: #34bec5;
+    background-color: #e4dfcb;
 
 }
 
 footer p {
     text-align: center;
     font-size: 15px;
-    color: #fefdff;
+    font-family: 'Montserrat', 'Poppins', 'Avenir', sans-serif;
+    color: #361b6d;
 }

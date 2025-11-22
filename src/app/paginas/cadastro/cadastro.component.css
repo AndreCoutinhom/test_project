@@ -8,16 +8,16 @@ body {
 
 p {
     font-size: 20px;
-    color: white;
+    color: rgb(255, 187, 0);
 }
 
 /* Estilo geral do formulário */
 form {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
-  background: linear-gradient(to bottom, #011e2c, #34bec5);
-  border-radius: 8px;
+  background: #eff0fa;
+  border-radius: 12px;
   box-shadow: 0 2px 8px #4dbcd4;
 }
 
@@ -27,7 +27,8 @@ form label {
   margin-top: 15px;
   margin-bottom: 5px;
   font-weight: bold;
-  color: white;
+  font-family: 'Cinzel', serif;
+  color: black;
 }
 
 /* Estilo dos inputs */
@@ -44,7 +45,7 @@ form label {
 
 /* Efeito ao focar no input */
 .input-simples:focus {
-  border-color: #4dbcd4;
+  border-color: rgb(255, 187, 0);
   outline: none;
 }
 
@@ -53,18 +54,19 @@ form label {
   width: 100%;
   padding: 12px;
   margin-top: 20px;
-  background-color: #011e2c;
-  color: white;
-  font-size: 16px;
+  background-color: rgb(0, 27, 68);
+  color: rgb(255, 187, 0);
+  font-size: 120%;
   font-weight: bold;
+  font-family: 'Cinzel', serif;
   border: none;
-  border-radius: 6px;
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 /* Efeito ao passar o mouse sobre o botão */
 .input-submeter:hover {
-  background-color: #bbf3ff;
-  color: #011e2c;
+  background-color: rgb(255, 187, 0);
+  color: rgb(0, 27, 68);
 }

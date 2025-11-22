@@ -11,13 +11,13 @@ header {
     width: 90%;
     display: flex;
     flex-direction: row;
-    background-color: #011e2c;
     margin: 0px auto;
     margin-bottom: 5px;
     padding: 0px;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
+    background-color: #eff0fa;
+    border-radius: 12px;
 }
 
 header h1, header nav {
@@ -26,10 +26,24 @@ header h1, header nav {
     padding-right: 10px;
 }
 
+
+
 h1 a {
+    display: flex;
+    align-items: center;
     margin-left: 5%;
     text-decoration: none;
-    color: #fefdff;
+    color: black;
+    font-size: 140%;
+    font-family: 'Cinzel', serif;
+}
+
+h1 a img {
+    margin-left: 5%;
+    padding: 0%;
+    padding-right: 2%;
+    width: 30%;
+    margin: 0%;
 }
 
 div {
@@ -37,8 +51,8 @@ div {
 }
 
 header h1 {
-    color: #fefdff;
-    font-family: 'Courier New', Courier, monospace;
+    color: #361b6d;
+    font-family: 'Cinzel', serif;
 }
 
 nav {
@@ -48,19 +62,28 @@ nav {
 }
 
 nav a {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-family: 'Cinzel', serif;
+    font-size: 150%;
     font-weight: bold;
-    color: #fefdff;
+    color: black;
     flex: 1;
     cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease, font-size 0.3s ease, background-color 0.3s ease;
+    border-radius: 40px;
 }
 
 nav a:hover {
-    font-size: 25px;
-    color: #49adce;
+    font-size: 160%;
+    color: rgb(255, 187, 0);
     font-weight: bolder;
+    background-color: rgb(0, 27, 68);
+    box-shadow: 3px 3px 10px rgba(72, 145, 255, 0.849);
+}
+
+nav a:hover:after {
+    transform: scaleX(1);
 }
 
 img {
