@@ -1,24 +1,18 @@
-body {
-    width: 90%;
-    height: 500px;
-    margin: 0% auto;
-    border: 3px solid black;
-    background: linear-gradient(to bottom, #011e2c, #34bec5);
-}
-
-p {
-    font-size: 20px;
-    color: rgb(255, 187, 0);
-}
-
 /* Estilo geral do formulário */
 form {
   max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
-  background: #eff0fa;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px #4dbcd4;
+  background: #eff0fa23;
+  border-radius: 30px;
+  border: 0.1px solid #eff0fab0;
+  box-shadow: 0px 2px 16px #eff0fa;
+  backdrop-filter: blur(12px);
+  transition: background-color 0.5s ease;
+}
+
+form:hover {
+  background-color: #eff0faad;
 }
 
 /* Estilo dos rótulos */
@@ -26,6 +20,7 @@ form label {
   display: block;
   margin-top: 15px;
   margin-bottom: 5px;
+  font-size: 110%;
   font-weight: bold;
   font-family: 'Cinzel', serif;
   color: black;
@@ -36,6 +31,7 @@ form label {
   width: 100%;
   padding: 10px 12px;
   font-size: 16px;
+  color: rgb(0, 43, 107);
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;

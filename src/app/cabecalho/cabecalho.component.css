@@ -1,5 +1,4 @@
 a img {
-    width: 15%;
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 2%;
@@ -8,16 +7,22 @@ a img {
 }
 
 header {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin: 0px auto;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     padding: 0px;
     justify-content: center;
     align-items: center;
-    background-color: #eff0fa;
-    border-radius: 12px;
+    background-color: #eff0fa23;
+    border-radius: 12px 12px 0px 0px;
+    backdrop-filter: blur(12px);
+    transition: background-color 0.5s ease;
+}
+
+header:hover {
+    background-color: #eff0faad;
 }
 
 header h1, header nav {
@@ -34,7 +39,7 @@ h1 a {
     margin-left: 5%;
     text-decoration: none;
     color: black;
-    font-size: 140%;
+    font-size: 100%;
     font-family: 'Cinzel', serif;
 }
 
@@ -42,17 +47,12 @@ h1 a img {
     margin-left: 5%;
     padding: 0%;
     padding-right: 2%;
-    width: 30%;
+    width: 15%;
     margin: 0%;
 }
 
 div {
     text-align: center;
-}
-
-header h1 {
-    color: #361b6d;
-    font-family: 'Cinzel', serif;
 }
 
 nav {
@@ -63,7 +63,7 @@ nav {
 
 nav a {
     font-family: 'Cinzel', serif;
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
     color: black;
     flex: 1;
